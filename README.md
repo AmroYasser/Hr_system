@@ -27,7 +27,7 @@ CREATE DATABASE postgres;
 Install the dependencies then migrate and start the server.
 
 ```sh
-cd hr_system
+cd Hr_system
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
