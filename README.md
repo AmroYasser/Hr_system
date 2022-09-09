@@ -17,7 +17,7 @@ Technologies used for this project:
 - Boto3 and Django-storage (for aws s3)
 
 ## Installation
-Create the database user and password and then create the database (assuming you're using linux):
+Create the database user and password and then create the database (assuming you're using linux and have postgres installed):
 ```sh
 sudo su - postgres
 psql
