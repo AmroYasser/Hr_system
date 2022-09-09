@@ -37,20 +37,26 @@ python manage.py runserver
 ### create
 At `http://127.0.0.1:8000/api/applicant-create-api/`
 Candidate can register with his info.
+
 ![Alt text](README_pics/create.png?raw=true)
 
 ### list
 At `http://127.0.0.1:8000/api/applicant-list-api/`
 Admins (with ADMIN-X=1 in the header) can see the list of candidates ordered by registration date in descending order.
 ![Alt text](README_pics/list_admin.png?raw=true)
-Not admin users can not see the list and get unauthorized error
+
+Not admin users can not see the list and get unauthorized status
+
 ![Alt text](README_pics/list_not_admin.png?raw=true)
 
 ### retrieve
 At `http://127.0.0.1:8000/api/applicant-retrieve-api/<id>`
 Admins (with ADMIN-X=1 in the header) can download the resumes by candidate id.
+
 ![Alt text](README_pics/download.png?raw=true)
-Not admin users can not download and get unauthorized error
+
+Not admin users can not download and get unauthorized status
+
 ![Alt text](README_pics/no_download.png?raw=true)
 
 
