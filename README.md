@@ -2,7 +2,7 @@
 API for a tiny HR system, where job applicants can register as potential candidates and upload their resumes, and HR managers can log in and see the list of candidates and download their resumes.
 
 ## Features
-- Candidates can register with their information.
+- Candidates can register with their information and upload their resumes (.pdf and .docx only).
 - Hr managers (admins) can see the list of candidates via the list endpoint.
 - Hr managers (admins) can download resume by candidate id via retrieve endpoint.
 - Resumes are stored on **aws s3**
