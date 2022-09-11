@@ -1,4 +1,3 @@
-from pyexpat import model
 from .models import Applicant
 from rest_framework import serializers
 
